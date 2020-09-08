@@ -267,6 +267,9 @@
 		transition: box-shadow .1s ease;
 		transition: box-shadow .1s ease, -webkit-box-shadow .1s ease;
 	}
+	.ui.card, .ui.cards > .card{
+		width:340px !important;
+	}
 	</style>
 </head>
 
@@ -334,7 +337,7 @@
 
 				<div class="ui horizontal basic segments collapsible">
 					<div class="ui segment transparentbg">
-						<a class="ui card" href="http://92.62.72.180:8000/index.php">
+						<a class="ui card" href="http://92.62.72.180:8000/index.php/login">
 							<p class="padding"><i class="ui middle aligned pagelines outline big icon grid-icon-size"></i>
 								</br>
 								<span class="grid-link-size">ИС ЭЛЕК-Фито</span>
