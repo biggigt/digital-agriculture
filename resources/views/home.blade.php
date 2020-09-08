@@ -188,19 +188,85 @@
 			font-size: 1.5em;
 		}
 	}
-  .grid-link-size{
-    font-size: 1.4em !important;
-  }
-  .grid-icon-size{
-    font-size: 3em !important;
-    padding-bottom: 1.2em;
-  }
-  a {
-    color:orangered;
-  }
-  a:hover {
-    color: orange;
-  }
+
+	.grid-link-size {
+		font-size: 1.3em !important;
+	}
+
+	.grid-icon-size {
+		font-size: 3em !important;
+		padding-bottom: 1.2em;
+	}
+
+	a {
+		color: #825a3e;
+	}
+
+	a:hover {
+		color: #eeb305;
+	}
+
+	.ui.items>.item>.image:not(.ui) {
+		width: 175px;
+	}
+
+	.ui.items>.item>.image>img {
+		display: block;
+		width: 100%;
+		height: auto;
+		border-radius: .125rem;
+		border: none
+	}
+
+	.ui.items>.item>.image+.content {
+		min-width: 0;
+		width: auto;
+		display: block;
+		margin-left: 0;
+		-ms-flex-item-align: start;
+		align-self: start;
+		padding-left: 1.5em;
+	}
+
+	.ui.items>.item>.content {
+		display: block;
+		-webkit-box-flex: 1;
+		-ms-flex: 1 1 auto;
+		flex: 1 1 auto;
+		background: 0 0;
+		color: rgba(0, 0, 0, .87);
+		margin: 0;
+		margin-left: 0px;
+		padding: 0;
+		padding-left: 0px;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		font-size: 1em;
+		border: none;
+		border-radius: 0;
+	}
+
+	.ui.items>.item {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin: 1em 0;
+		width: 100%;
+		min-height: 0;
+		background: 0 0;
+		padding: 0;
+		border: none;
+		border-top-color: currentcolor;
+		border-top-style: none;
+		border-top-width: medium;
+		border-radius: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		-webkit-transition: -webkit-box-shadow .1s ease;
+		transition: -webkit-box-shadow .1s ease;
+		transition: box-shadow .1s ease;
+		transition: box-shadow .1s ease, -webkit-box-shadow .1s ease;
+	}
 	</style>
 </head>
 
@@ -252,15 +318,15 @@
 									bioengineered.</p>
 							</div>
 							<div class="six wide right floated column">
-								<!-- <img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image"> -->
-                <div class="ui placeholder">
-                  <div class="image square"></div>
-                </div>
+								<img src="{{url('/assets/images/auto-agriculture.png')}}" class="ui large image">
+								<!-- <div class="ui placeholder">
+									<div class="image square"></div>
+								</div> -->
 							</div>
 						</div>
 						<div class="row">
 							<div class="center aligned column">
-								<a class="ui huge button">Узнать больше</a>
+								<a class="ui huge yellow button">Узнать больше</a>
 							</div>
 						</div>
 					</div>
@@ -269,25 +335,25 @@
 				<div class="ui horizontal basic segments collapsible">
 					<div class="ui segment transparentbg">
 						<a class="ui card" href="http://92.62.72.180:8000/index.php">
-							<p class="padding"><i class="ui middle aligned pagelines outline big icon grid-icon-size" ></i>
-                </br>
-								<span class="grid-link-size">ЭЛЕК</span>
+							<p class="padding"><i class="ui middle aligned pagelines outline big icon grid-icon-size"></i>
+								</br>
+								<span class="grid-link-size">ИС ЭЛЕК-Фито</span>
 							</p>
 						</a>
 					</div>
-					<div class="ui segment transparentbg">   
+					<div class="ui segment transparentbg">
 						<a class="ui card" href="http://92.62.72.180:8008/index.php">
-							<p class="padding"><i class="ui middle aligned flask big icon grid-icon-size" ></i>
+							<p class="padding"><i class="ui middle aligned flask big icon grid-icon-size"></i>
 								</br>
-                <span class="grid-link-size">Химизация</span>
+								<span class="grid-link-size">Электронный каталог пестицидов и агрохимикатов</span>
 							</p>
 						</a>
 					</div>
 					<div class="ui segment transparentbg">
 						<a class="ui card" href="http://92.62.72.180:8088/index.php">
-							<p class="padding"><i class="ui middle aligned fish big icon grid-icon-size" ></i>
-                </br>
-								<span class="grid-link-size">Рыбный реестр</span>
+							<p class="padding"><i class="ui middle aligned fish big icon grid-icon-size"></i>
+								</br>
+								<span class="grid-link-size">Реестр рыбохозяйственных водоемов, рек и озёр</span>
 							</p>
 						</a>
 					</div>
@@ -295,102 +361,167 @@
 				<div class="ui horizontal basic segments collapsible">
 					<div class="ui segment transparentbg">
 						<a class="ui card" href="#">
-							<p class="padding"><i class="ui middle aligned seedling big icon grid-icon-size"></i>
-                </br>
-								<span class="grid-link-size">Middle Aligned</span>
+							<p class="padding"><i class="ui middle aligned horse head icon grid-icon-size"></i>
+								</br>
+								<span class="grid-link-size">Реестр племенных хозяйств и ферм </span>
 							</p>
 						</a>
 					</div>
 					<div class="ui segment transparentbg">
 						<a class="ui card" href="#">
-							<p class="padding"><i class="ui middle aligned file alternate outline big icon grid-icon-size"></i>
-                </br>
-								<span class="grid-link-size">Middle Aligned</span>
+							<p class="padding"><i class="ui middle aligned horse icon grid-icon-size"></i>
+								</br>
+								<span class="grid-link-size">Реестр пунктов искусственного осеменения (ПИО) животных</span>
 							</p>
 						</a>
 					</div>
 					<div class="ui segment transparentbg">
 						<a class="ui card" href="#">
-							<p class="padding"><i class="ui middle aligned city big icon grid-icon-size"></i>
-                </br>
-								<span class="grid-link-size">Middle Aligned</span>
+							<p class="padding"><i class="ui middle aligned tractor icon grid-icon-size"></i>
+								</br>
+								<span class="grid-link-size">Реестр объектов сельхозтехники, машин и оборудования</span>
 							</p>
 						</a>
 					</div>
 				</div>
+				<div class="ui horizontal basic segments collapsible">
+					<div class="ui segment transparentbg">
+						<a class="ui card" href="#">
+							<p class="padding"><i class="ui middle aligned vials icon grid-icon-size"></i>
+								</br>
+								<span class="grid-link-size">АИС Экспертиза</span>
+							</p>
+						</a>
+					</div>
+					<div class="ui segment transparentbg">
+						<a class="ui card" href="#">
+							<p class="padding"><i class="ui middle aligned fruit-apple icon grid-icon-size"></i>
+								</br>
+								<span class="grid-link-size">Реестр производителей органической продукции</span>
+							</p>
+						</a>
+					</div>
+					<div class="ui segment transparentbg">
+						<a class="ui card" href="#">
+							<p class="padding"><i class="ui middle aligned pills icon grid-icon-size"></i>
+								</br>
+								<span class="grid-link-size">АИС Биопрепараты</span>
+							</p>
+						</a>
+					</div>
+				</div>
+				<div class="ui section divider"></div>
 				<h3 class="ui header left aligned">Новости</h3>
-				<table class="ui very basic stackable celled table">
-					<tbody>
-						<tr>
-							<td>
-								<div class="ui fluid placeholder">
-									<div class="image header">
-										<div class="line"></div>
-										<div class="line"></div>
+				<div class="ui grid">
+					<div class="eight wide column">
+						<div class="ui items">
+							<div class="item">
+								<div class="image">
+									<img src="{{url('/assets/images/image.png')}}">
+								</div>
+								<div class="content">
+									<a class="header">Департамент пастбищ провел работу</a>
+									<div class="meta">
+										<span class="cinema">Union Square 14</span>
 									</div>
-									<div class="paragraph">
-										<div class="line"></div>
-										<div class="line"></div>
-										<div class="line"></div>
-										<div class="line"></div>
-										<div class="line"></div>
+									<div class="description">
+										<p>Here goes description and important tags /n and features </br> also goes some
+											additional
+											info</p>
+									</div>
+									<div class="extra">
+										<div class="ui right floated yellow button">
+											Узнать больше
+											<i class="right chevron icon"></i>
+										</div>
+										<div class="ui label"><i class="globe icon"></i> Additional Languages</div>
 									</div>
 								</div>
-							</td>
-							<td>
-								<div class="ui fluid placeholder">
-									<div class="image header">
-										<div class="line"></div>
-										<div class="line"></div>
+							</div>
+							<div class="item">
+								<div class="image">
+									<img src="{{url('/assets/images/image.png')}}">
+								</div>
+								<div class="content">
+									<a class="header">Выявлены участки и почва</a>
+									<div class="meta">
+										<span class="cinema">Union Square 14</span>
 									</div>
-									<div class="paragraph">
-										<div class="line"></div>
-										<div class="line"></div>
-										<div class="line"></div>
-										<div class="line"></div>
-										<div class="line"></div>
+									<div class="description">
+										<p>Here goes description and important tags /n and features </br> also goes some
+											additional
+											info</p>
+									</div>
+									<div class="extra">
+										<div class="ui right floated yellow button">
+											Узнать больше
+											<i class="right chevron icon"></i>
+										</div>
+										<div class="ui label"><i class="globe icon"></i> Additional Languages</div>
 									</div>
 								</div>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<div class="ui fluid placeholder">
-									<div class="image header">
-										<div class="line"></div>
-										<div class="line"></div>
+							</div>
+						</div>
+					</div>
+					<div class="eight wide column">
+						<div class="ui items">
+							<div class="item">
+								<div class="image">
+									<img src="{{url('/assets/images/image.png')}}">
+								</div>
+								<div class="content">
+									<a class="header">Закуплено биопрепаратов на сумму Х млн</a>
+									<div class="meta">
+										<span class="cinema">Union Square 14</span>
 									</div>
-									<div class="paragraph">
-										<div class="line"></div>
-										<div class="line"></div>
-										<div class="line"></div>
-										<div class="line"></div>
-										<div class="line"></div>
+									<div class="description">
+										<p></p>
+									</div>
+									<div class="extra">
+										<div class="ui right floated yellow button">
+											Узнать больше
+											<i class="right chevron icon"></i>
+										</div>
+										<div class="ui label"><i class="globe icon"></i> Additional Languages</div>
 									</div>
 								</div>
-							</td>
-							<td>
-								<div class="ui fluid placeholder">
-									<div class="image header">
-										<div class="line"></div>
-										<div class="line"></div>
+							</div>
+							<div class="item">
+								<div class="image">
+									<img src="{{url('/assets/images/image.png')}}">
+								</div>
+								<div class="content">
+									<a class="header">Общие процессы интеграции с ЕАЭС</a>
+									<div class="meta">
+										<span class="cinema">Union Square 14</span>
 									</div>
-									<div class="paragraph">
-										<div class="line"></div>
-										<div class="line"></div>
-										<div class="line"></div>
-										<div class="line"></div>
-										<div class="line"></div>
+									<div class="description">
+										<p>Here goes description and important tags /n and features </br> also goes some
+											additional
+											info</p>
+									</div>
+									<div class="extra">
+										<div class="ui right floated yellow button">
+											Узнать больше
+											<i class="right chevron icon"></i>
+										</div>
+										<div class="ui label"><i class="globe icon"></i> Additional Languages</div>
 									</div>
 								</div>
-							</td>
-						</tr>
-					</tbody>
-				</table>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+
 			<div class="ui vertical stripe segment">
+				<h4 class="ui horizontal divider header">
+					<i class="center align icon"></i>
+					Информационный блок
+				</h4>
 				<div class="ui text container">
-					<h3 class="ui header">Информационный заголовок 1</h3>
+
+					<h4 class="ui header">Информационный заголовок 1</h4>
 					<p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing
 						nothing by providing massive amounts of whitespace and generic content that can seem massive,
 						monolithic and worth your attention.</p>
@@ -398,7 +529,7 @@
 					<h4 class="ui horizontal header divider">
 						<a href="#">Case Studies</a>
 					</h4>
-					<h3 class="ui header">Информационный заголовок 2</h3>
+					<h4 class="ui header">Информационный заголовок 2</h4>
 					<p>Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but its really
 						true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.
 					</p>
