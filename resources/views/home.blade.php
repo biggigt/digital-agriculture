@@ -539,12 +539,12 @@
 					<a class="ui large button">I'm Still Quite Interested</a>
 				</div>
 			</div>
-			<div class="ui inverted vertical footer segment">
+			<div class="ui vertical footer segment">
 				<div class="ui container">
-					<div class="ui stackable inverted divided equal height stackable grid">
+					<div class="ui stackable divided equal height stackable grid">
 						<div class="three wide column">
-							<h4 class="ui inverted header">About</h4>
-							<div class="ui inverted link list">
+							<h4 class="ui header">About</h4>
+							<div class="ui link list">
 								<a href="#" class="item">Sitemap</a>
 								<a href="#" class="item">Contact Us</a>
 								<a href="#" class="item">Religious Ceremonies</a>
@@ -552,8 +552,8 @@
 							</div>
 						</div>
 						<div class="three wide column">
-							<h4 class="ui inverted header">Services</h4>
-							<div class="ui inverted link list">
+							<h4 class="ui header">Services</h4>
+							<div class="ui link list">
 								<a href="#" class="item">Banana Pre-Order</a>
 								<a href="#" class="item">DNA FAQ</a>
 								<a href="#" class="item">How To Access</a>
@@ -561,7 +561,7 @@
 							</div>
 						</div>
 						<div class="seven wide column">
-							<h4 class="ui inverted header">Footer Header</h4>
+							<h4 class="ui header">Footer Header</h4>
 							<p>Extra space for a call to action inside the footer that could help re-engage users.</p>
 						</div>
 					</div>
