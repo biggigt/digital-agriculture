@@ -350,7 +350,7 @@
 						</a>
 					</div>
 					<div class="ui segment transparentbg">
-						<a class="ui card" href="http://92.62.72.180:8088/index.php">
+						<a class="ui card" href="http://92.62.72.180:8088/index.php/register">
 							<p class="padding"><i class="ui middle aligned fish big icon grid-icon-size"></i>
 								</br>
 								<span class="grid-link-size">Реестр рыбохозяйственных водоемов, рек и озёр</span>
