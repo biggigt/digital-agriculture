@@ -268,7 +268,7 @@
 
 				<div class="ui horizontal basic segments collapsible">
 					<div class="ui segment transparentbg">
-						<a class="ui card" href="#">
+						<a class="ui card" href="http://92.62.72.180:8000/index.php">
 							<p class="padding"><i class="ui middle aligned pagelines outline big icon grid-icon-size" ></i>
                 </br>
 								<span class="grid-link-size">ЭЛЕК</span>
@@ -276,7 +276,7 @@
 						</a>
 					</div>
 					<div class="ui segment transparentbg">   
-						<a class="ui card" href="#">
+						<a class="ui card" href="http://92.62.72.180:8008/index.php">
 							<p class="padding"><i class="ui middle aligned flask big icon grid-icon-size" ></i>
 								</br>
                 <span class="grid-link-size">Химизация</span>
@@ -284,7 +284,7 @@
 						</a>
 					</div>
 					<div class="ui segment transparentbg">
-						<a class="ui card" href="#">
+						<a class="ui card" href="http://92.62.72.180:8088/index.php">
 							<p class="padding"><i class="ui middle aligned fish big icon grid-icon-size" ></i>
                 </br>
 								<span class="grid-link-size">Рыбный реестр</span>
