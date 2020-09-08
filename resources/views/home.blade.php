@@ -290,7 +290,7 @@
 			</div>
 			@endif
 
-			<div class="content">
+			<div class="content" style="padding-top:10px;">
 				<div class="ui stackable menu">
 					<div class="header item">
 						Цифровое Сельское Хозяйство
