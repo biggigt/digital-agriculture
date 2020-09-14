@@ -363,7 +363,7 @@
 				</div>
 				<div class="ui horizontal basic segments collapsible">
 					<div class="ui segment transparentbg">
-						<a class="ui card" href="#">
+						<a class="ui card" href="http://92.62.72.180:8890/index.php">
 							<p class="padding"><i class="ui middle aligned horse head icon grid-icon-size"></i>
 								</br>
 								<span class="grid-link-size">Реестр племенных хозяйств и ферм </span>
@@ -379,7 +379,7 @@
 						</a>
 					</div>
 					<div class="ui segment transparentbg">
-						<a class="ui card" href="#">
+						<a class="ui card" href="http://92.62.72.180:8887/index.php">
 							<p class="padding"><i class="ui middle aligned tractor icon grid-icon-size"></i>
 								</br>
 								<span class="grid-link-size">Реестр объектов сельхозтехники, машин и оборудования</span>
@@ -389,7 +389,7 @@
 				</div>
 				<div class="ui horizontal basic segments collapsible">
 					<div class="ui segment transparentbg">
-						<a class="ui card" href="#">
+						<a class="ui card" href="http://92.62.72.180:8883/index.php">
 							<p class="padding"><i class="ui middle aligned vials icon grid-icon-size"></i>
 								</br>
 								<span class="grid-link-size">АИС Экспертиза</span>
@@ -397,7 +397,7 @@
 						</a>
 					</div>
 					<div class="ui segment transparentbg">
-						<a class="ui card" href="#">
+						<a class="ui card" href="http://92.62.72.180:8885/index.php">
 							<p class="padding"><i class="ui middle aligned fruit-apple icon grid-icon-size"></i>
 								</br>
 								<span class="grid-link-size">Реестр производителей органической продукции</span>
@@ -405,7 +405,7 @@
 						</a>
 					</div>
 					<div class="ui segment transparentbg">
-						<a class="ui card" href="#">
+						<a class="ui card" href="http://92.62.72.180:8881/index.php">
 							<p class="padding"><i class="ui middle aligned pills icon grid-icon-size"></i>
 								</br>
 								<span class="grid-link-size">АИС Биопрепараты</span>
